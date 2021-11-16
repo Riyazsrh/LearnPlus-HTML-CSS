@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading-main {
+  /* background-color: #a29bfe8f; */
+  height: 100px;
+  color: red;
+}
+/* -------happy-student---- */
+#bgc{
+  background-color: #d2da97af;
+}
+.aise1 {
+  display: grid;
+  flex-direction: row;
+}
+.aise1 img {
+  border-radius: 100%;
+}
+.sprt {
+  position: relative;
+  bottom: 560px;
+  left: 768px;
+}
+#us{
+    background-color: #D6A2E8;
+}
+/* -----Free-courses-------------- */
+.img2 {
+  float: left;
+}
+
+.clearfix {
+  overflow: auto;
+}
+.av{
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+.frm{
+  color:black;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  height: 32px;
+  width: 210px;
+}
+.clearfix i{
+  color: rgb(209, 151, 42);
+}
+  
+  /* -----------**paid-courses-css-***---------- */
+/* -----cards----------- */
+
+.card-p {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  /* margin: auto; */
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card-p button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+.card-p button:hover {
+  opacity: 0.7;
+}
+.cards-main{
+  display: flex;
+  justify-content: space-around;
+}
+.cards-row1{
+  display: flex;
+  gap: 35px;
+}
+/* -------*****CONTACT-CSS------**** */
+
+#contactform{
+  display: flex;
+}
+.ffrrmm{
+  margin-right: 15px;
+}
+.btn-block{
+  margin-top: 5px;
+  width: 555px;
+}
+.embd{
+  margin-left: 128px;
+}
+/* --------footer-- */
+.box h3{
+color: #32ff7e;
+}
+#fa1 a{
+  color: white;
+}
+#fa2 a{
+  color: white;
+}
+#fa1 i{
+  color: red;
+}
+#fa2 i{
+  color: red;
+}
+/* --------end---- */
+
+/* ----live-chat---- */
+.fxd{
+  background-color: yellowgreen;
+  width: 130px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
